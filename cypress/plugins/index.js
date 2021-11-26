@@ -15,9 +15,17 @@
 /**
  * @type {Cypress.PluginConfig}
  */
+<<<<<<< HEAD
 module.exports = (on, config) => {
     // `on` is used to hook into various events Cypress emits
     // `config` is the resolved Cypress config
 
     on('task', require('./swap-env'));
 };
+=======
+// eslint-disable-next-line no-unused-vars
+module.exports = (on, config) => {
+  // `on` is used to hook into various events Cypress emits
+  // `config` is the resolved Cypress config
+}
+>>>>>>> c823a7616ac778c54d90aab6e5fa6e035930cbf8

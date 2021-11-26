@@ -1,0 +1,26 @@
+{
+  "name": "siakad",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Selamat datang di Sistem Informasi Akademik Sekolah! 👋</h1>",
+  "main": "webpack.mix.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DitaNurA/siakad.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DitaNurA/siakad/issues"
+  },
+  "homepage": "https://github.com/DitaNurA/siakad#readme",
+  "devDependencies": {
+    "cypress": "^9.1.0"
+  }
+}
