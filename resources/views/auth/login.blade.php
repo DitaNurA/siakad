@@ -32,7 +32,7 @@
         </span>
       @enderror
     </div>
-    <div class="row mb-1">
+    <div class="row-mb-1">
       <div class="col-7">
         <div class="icheck-primary">
           <input type="checkbox" id="remember" class="form-check-input" type="checkbox" name="remember" {{ old('remember') ? 'checked' : '' }} disabled>
