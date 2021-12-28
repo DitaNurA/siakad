@@ -1,26 +1,21 @@
 {
-  "name": "siakad",
-  "version": "1.0.0",
-  "description": "<h1 align=\"center\">Selamat datang di Sistem Informasi Akademik Sekolah! 👋</h1>",
-  "main": "webpack.mix.js",
-  "directories": {
-    "test": "tests"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DitaNurA/siakad.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DitaNurA/siakad/issues"
-  },
-  "homepage": "https://github.com/DitaNurA/siakad#readme",
-  "devDependencies": {
-    "cypress": "^9.1.0"
-  }
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14"
+    },
+    "dependencies": {
+        "cypress": "^9.2.0"
+    }
 }
